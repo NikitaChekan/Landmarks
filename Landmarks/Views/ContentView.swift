@@ -2,44 +2,14 @@
 //  ContentView.swift
 //  Landmarks
 //
-//  Created by Nikita Chekan on 08.12.2022.
+//  Created by jopootrivatel on 08.12.2022.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        VStack {
-            MapView()
-                .ignoresSafeArea(edges: .top)
-                .frame(height: 300)
-            
-            CircleImage()
-                .offset(y: -130)
-                .padding(.bottom, -130)
-            VStack(alignment: .leading) {
-                Text("Turtle Rock")
-                    .font(.title)
-                
-                HStack {
-                    Text("Joshua Tree National Park")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("California")
-                        .font(.subheadline)
-                }
-                Divider()
-                
-                Text("About Turtle Rock")
-                    .font(.title2)
-                Text("Description")
-                    .font(.subheadline)
-            }
-            .padding()
-            
-            Spacer()
-        }
+        LandmarkList()
     }
 }
 
