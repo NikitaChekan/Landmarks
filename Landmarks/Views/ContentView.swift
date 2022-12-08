@@ -33,7 +33,7 @@ struct ContentView: View {
                 
                 Text("About Turtle Rock")
                     .font(.title2)
-                Text("Turtle Rock overlooks Cub Creek Road as it winds through the monument. From long-time settlers to brief passers-by, many of us like to name what we see around us. This towering outcropping of Entrada Sandstone, the same tye of rock that forms arches in Arches National Park, is known as Turtle Rock.")
+                Text("Description")
                     .font(.subheadline)
             }
             .padding()
