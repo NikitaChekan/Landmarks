@@ -12,7 +12,7 @@ struct LandmarkList: View {
         NavigationView {
             List(landmarks) { landmarks in
                 NavigationLink {
-                    LandmarkDetail()
+                    LandmarkDetail(landmark: landmarks)
                 } label: {
                     LandmarkRow(landmark: landmarks)
                 }
