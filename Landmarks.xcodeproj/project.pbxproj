@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA3D2F992945142800DD9A79 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3D2F982945142700DD9A79 /* HexagonParameters.swift */; };
+		DA3D2F9B2945172500DD9A79 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3D2F9A2945172500DD9A79 /* BadgeBackground.swift */; };
 		DABDAFA529426AF6001BDC23 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABDAFA429426AF6001BDC23 /* LandmarksApp.swift */; };
 		DABDAFA929426AF8001BDC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABDAFA829426AF8001BDC23 /* Assets.xcassets */; };
 		DABDAFAC29426AF8001BDC23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABDAFAB29426AF8001BDC23 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		DA3D2F982945142700DD9A79 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		DA3D2F9A2945172500DD9A79 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		DABDAFA129426AF6001BDC23 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABDAFA429426AF6001BDC23 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		DABDAFA829426AF8001BDC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				DABDAFB329427046001BDC23 /* CircleImage.swift */,
 				DABDAFB5294271E4001BDC23 /* MapView.swift */,
 				DAF623AB2944C29F00748869 /* FavoriteButton.swift */,
+				DA3D2F9A2945172500DD9A79 /* BadgeBackground.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				DA3D2F992945142800DD9A79 /* HexagonParameters.swift in Sources */,
 				DABDAFC429428491001BDC23 /* LandmarkDetail.swift in Sources */,
 				DABDAFBA29427AFC001BDC23 /* ModelData.swift in Sources */,
+				DA3D2F9B2945172500DD9A79 /* BadgeBackground.swift in Sources */,
 				DABDAFC62942853A001BDC23 /* ContentView.swift in Sources */,
 				DABDAFB429427046001BDC23 /* CircleImage.swift in Sources */,
 				DABDAFC029427C82001BDC23 /* LandmarkRow.swift in Sources */,
