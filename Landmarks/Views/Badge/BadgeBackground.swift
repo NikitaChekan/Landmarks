@@ -14,11 +14,11 @@ struct BadgeBackground: View {
         green: 120.0 / 255,
         blue: 221.0 / 255
     )
-        static let gradientEnd = Color(
-            red: 239.0 / 255,
-            green: 172.0 / 255,
-            blue: 120.0 / 255
-        )
+    static let gradientEnd = Color(
+        red: 239.0 / 255,
+        green: 172.0 / 255,
+        blue: 120.0 / 255
+    )
     
     var body: some View {
         GeometryReader { geometry in
