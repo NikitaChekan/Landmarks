@@ -15,10 +15,11 @@ struct ProfileHost: View {
     var body: some View {
         VStack {
             HStack {
-                if editMode?.wrappedValue == .inactive {
+                if editMode?.wrappedValue == .active {
                     Button("Cancel", role: .cancel) {
                         draftProfile = modelData.profile
                         editMode?.animation().wrappedValue = .inactive
+                        
                     }
                 }
                 
