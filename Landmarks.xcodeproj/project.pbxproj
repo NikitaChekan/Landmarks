@@ -37,6 +37,7 @@
 		DABDAFC229427F91001BDC23 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABDAFC129427F91001BDC23 /* LandmarkList.swift */; };
 		DABDAFC429428491001BDC23 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABDAFC329428491001BDC23 /* LandmarkDetail.swift */; };
 		DABDAFC62942853A001BDC23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABDAFC52942853A001BDC23 /* ContentView.swift */; };
+		DAE204A0296565A900DAD46A /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2049F296565A900DAD46A /* ProfileEditor.swift */; };
 		DAF623AC2944C29F00748869 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF623AB2944C29F00748869 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		DABDAFC129427F91001BDC23 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		DABDAFC329428491001BDC23 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		DABDAFC52942853A001BDC23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAE2049F296565A900DAD46A /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		DAF623AB2944C29F00748869 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 			children = (
 				DA2D575529645DBF00426D3D /* ProfileHost.swift */,
 				DA2D575729645F9C00426D3D /* ProfileSummary.swift */,
+				DAE2049F296565A900DAD46A /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				DA8CB883294A0DEE0086B72D /* Hike.swift in Sources */,
 				DA3D2F9F2945229200DD9A79 /* RotatedBadgeSymbol.swift in Sources */,
 				DA3D2F9D2945214D00DD9A79 /* BadgeSymbol.swift in Sources */,
+				DAE204A0296565A900DAD46A /* ProfileEditor.swift in Sources */,
 				DABDAFC429428491001BDC23 /* LandmarkDetail.swift in Sources */,
 				DA8CB88C294A10A90086B72D /* HikeView.swift in Sources */,
 				DABDAFBA29427AFC001BDC23 /* ModelData.swift in Sources */,
