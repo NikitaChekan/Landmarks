@@ -40,7 +40,7 @@ struct LandmarkList: View {
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-//        ForEach(["iPhone 14 Pro", "iPhone 8 Plus"], id: \.self) { deviceName in /// запустить на нескольких устройствах
+//        ForEach(["iPhone 14 Pro", "iPhone 11 Plus"], id: \.self) { deviceName in /// запустить на нескольких устройствах
             LandmarkList()
             .environmentObject(ModelData())
 //                .previewDevice(PreviewDevice(rawValue: deviceName))
